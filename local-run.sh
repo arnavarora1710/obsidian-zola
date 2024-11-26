@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Check for python-is-python3 installed
+Check for python-is-python3 installed
 if ! command -v python &>/dev/null; then
 	echo "It appears you do not have python-is-python3 installed"
 	exit 1
