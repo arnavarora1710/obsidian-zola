@@ -94,6 +94,14 @@ The [example site](https://peteryuen.netlify.app/) shows the capabilities of `ob
 - Set the path to the Obsisian vault using a `.vault_path` file or the `$VAULT` environment variable
 - use `./local-run.sh` to run the site
 
+# Local Testing (MacOS)
+
+- Install zola from the instuctions on the site `https://www.getzola.org/documentation/getting-started/installation/`
+- Run the following commands to install other needed dependencies `pip3 install python-slugify rtoml` (or use `conda` / `mamba`)
+- Use `git clone https://github.com/ppeetteerrs/obsidian-zola` to clone the repo to somewhere other than inside the Obsidian vault folder
+- Set the path to the Obsisian vault using a `.vault_path` file or the `$VAULT` environment variable
+- use `./local-run-mac.sh` to run the site
+
 # Features 
 
 **Disclaimer**
