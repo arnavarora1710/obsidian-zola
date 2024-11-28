@@ -99,9 +99,9 @@ graph.once("afterDrawing", function () {
 		graph.moveTo({
 			position: {
 				x: 0,
-				y: -clientHeight / 4,
+				y: -clientHeight / 3,
 			},
-			scale: graph.getScale() * 1,
+			scale: graph.getScale() * 1.2,
 		});
 	}
 });
