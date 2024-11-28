@@ -47,6 +47,7 @@ export REPO_URL=local
 rm -rf build
 rsync -a zola/ build
 rsync -a content/ build/content
+mv build/config-mac.toml build/config.toml
 
 # Use obsidian-export to export markdown content from obsidian
 mkdir -p build/content/docs build/__docs
