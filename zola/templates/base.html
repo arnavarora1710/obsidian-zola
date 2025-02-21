@@ -33,7 +33,8 @@
 {% block body %}{% set page_class="home" %}{% endblock body %}
 <body class="{{ page_class }}">
   <script>
-    if (localStorage.getItem("theme") === "dark" || (!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    // if (localStorage.getItem("theme") === "dark" || (!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    if (localStorage.getItem("theme") === "dark") {
       document.body.classList.add("dark");
     }
   </script>
